@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dfddb1f4-925e-4434-9054-9597200a2940"
+      }
+    },
+    "owner": "zikran69"
   }
 }
