@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity,Image } from 'react-native'
 import React from 'react'
 import ScreenWrapper from '../components/ScreenWrapper'
 import { colors } from '../theme'
@@ -11,6 +11,9 @@ export default function HomeScreen() {
         <TouchableOpacity className="p-2 px-3 bg-white border border-gray-200 rounded-all">
           <Text className={colors.heading}>Logout</Text>
         </TouchableOpacity>
+      </View>
+      <View>
+        <Image source={require('../assets/images/banner.png')} className="w-60 h-60" />
       </View>
     </ScreenWrapper>
   )
